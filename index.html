@@ -8,11 +8,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
+        <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css"
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/styles.css" />
         <title>Главная</title>
     </head>
     <body>
-        <header>
+        <header class="container">
             <a  class="logo" href="./index.html"  >Web<span class="logo-header">Studio</span></a>
             <nav>
                 <ul class="navigation list">
@@ -28,10 +30,13 @@
         </header>
         <main>
             <section class="hero">
+                <div class="container">
                 <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
                 <button class="button" type="button">Заказать услугу</button>
+                </div>
             </section>
             <section class="feature-section">
+                <div class="container">
                 <ul class="list">
                     <li>
                         <h3 class="feature-title">Внимание к деталям</h3>
@@ -50,8 +55,10 @@
                         <p class="feature">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
+                </div>
             </section>
             <section class="abilities">
+                <div class="container">
                 <h2 class="abilities-title">Чем мы занимаемся</h2>
                     <ul class="list">
                         <li>
@@ -63,11 +70,13 @@
                         <li>
                             <img src="./images/design.jpg" alt="Дизайн" width="370" height="294">
                         </li>
-                    </ul>           
+                    </ul>  
+                </div>
             </section>
             <section class="team">
+                <div class="container">
                 <h2>Наша команда</h2>
-                    <ul class="list">
+                    <ul class="list team-flex">
                         <li class="team-list">
                             <img src="./images/igorde.jpg" alt="Игорь Демьяненко"
                                 width="270"
@@ -95,11 +104,13 @@
                                 height="260">
                             <h3 class="title-team">Михаил Ермаков</h3>
                             <p class="team-positions" lang="en">UI Designer</p>
-                        </li>
+                        </li>                
                     </ul>
+                </div>
             </section>
         </main>
         <footer class="footer-address">
+            <div class="container">
             <a class="logo" href="index.html" lang="en">Web<span class="logo-footer">Studio</span></a>
             <address>
                 <ul class="list">
@@ -108,6 +119,7 @@
                     <li><a class="address-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>               
             </address>
+            </div>
         </footer>
     </body>
 </html>

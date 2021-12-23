@@ -11,8 +11,30 @@ body {
   color: var(--main-text-color);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 /* MAIN PAGE */
 /* header */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -132,6 +154,7 @@ body {
 
 .team-list {
   background-color: #ffffff;
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .title-team {
