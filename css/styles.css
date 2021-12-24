@@ -160,8 +160,7 @@ img {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
-  min-width: 200px
-  min-height: 50px;
+  min-width: 200px;
 }
 
 .button:hover,
@@ -202,7 +201,7 @@ img {
 
 .feature-flex:not(:last-child) {
   margin-right: 30px;
-} 
+}
 
 .feature-list {
   margin-right: auto;
@@ -216,7 +215,6 @@ img {
 
 .abilities {
   padding: 0 0 94px 0;
-
 }
 
 .abilities-title {
