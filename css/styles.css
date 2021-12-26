@@ -4,7 +4,6 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-text-color: #757575;
-  --card-set-gap: 30px;
 }
 
 body {
@@ -12,51 +11,8 @@ body {
   color: var(--main-text-color);
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 /* MAIN PAGE */
 /* header */
-
-.section {
-  padding: 94px 0;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  /* outline: 2px solid red; */
-}
-
-.header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
-}
-.header-container {
-  display: flex;
-  align-items: center;
-}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -66,7 +22,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.02em;
   font-weight: bold;
-  margin-right: 93px;
 }
 
 .list {
@@ -75,10 +30,6 @@ img {
 
 .logo-header {
   color: var(--main-text-color);
-}
-
-.navigation.list {
-  display: flex;
 }
 
 .navigation .link {
@@ -99,15 +50,6 @@ img {
   color: var(--accent-color);
 }
 
-.navigation .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.navigation-item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .contacts {
   font-weight: 500;
   font-size: 14px;
@@ -122,22 +64,8 @@ img {
   color: var(--accent-color);
 }
 
-.contacts.list {
-  display: flex;
-}
-
-.header-contacts {
-  margin-left: auto;
-}
-
-.contacts-item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .hero {
   background-color: #2f303a;
-  padding: 200px 0;
-  text-align: center;
 }
 
 .main-title {
@@ -148,10 +76,6 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  margin-bottom: 30px;
-  max-width: 696px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .button {
@@ -164,9 +88,6 @@ img {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 200px;
 }
 
 .button:hover,
@@ -181,7 +102,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
-  margin-bottom: 10px;
 }
 
 .feature {
@@ -197,27 +117,6 @@ img {
   background-color: var(--primary-white-color);
 }
 
-.feature-flex {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
-
-.feature-flex:not(:last-child) {
-  margin-right: 30px;
-}
-
-.feature-list {
-  flex-basis: calc(100% / 4 - var(--card-set-gap));
-  margin-top: var(--card-set-gap);
-  margin-left: var(--card-set-gap);
-}
-
-.abilities {
-  padding: 0 0 94px 0;
-}
-
 .abilities-title {
   font-weight: 700;
   font-size: 36px;
@@ -225,43 +124,14 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-bottom: 50px;
-}
-
-.abilities-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
-
-.abilities-item {
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
-  margin-top: var(--card-set-gap);
-  margin-left: var(--card-set-gap);
 }
 
 .team {
   background-color: #f5f4fa;
 }
 
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
-
 .team-list {
   background-color: #ffffff;
-}
-
-.team-content {
-  padding: 30px 0;
 }
 
 .title-team {
@@ -271,7 +141,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-bottom: 10px;
 }
 
 .team-positions {
@@ -282,26 +151,12 @@ img {
   color: var(--secondary-text-color);
 }
 
-.team-flex {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
-
-.team-list {
-  flex-basis: calc(100% / 4 - var(--card-set-gap));
-  margin-top: var(--card-set-gap);
-  margin-left: var(--card-set-gap);
-}
-
 .logo-footer {
   color: var(--primary-white-color);
 }
 
 .footer-address {
   background-color: #2f303a;
-  padding: 60px 0;
 }
 
 .address-map {
@@ -311,7 +166,6 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
-  margin-bottom: 9px;
 }
 
 .address-item {
@@ -321,14 +175,6 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-}
-
-.address-item:not(:last-child) {
-  padding-top: 9px;
-}
-
-.logo-item {
-  margin-bottom: 20px;
 }
 
 .address-item:hover,
